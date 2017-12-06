@@ -36,7 +36,7 @@ This is a simple project REST API using JavaEE and Gradle.
 * Status code: 204
 
 
-### Reads clients:
+### Read clients:
 
 * URL: \<context-root\>/rest/client
 * Method: GET
