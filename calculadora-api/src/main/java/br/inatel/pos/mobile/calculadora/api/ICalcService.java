@@ -14,11 +14,11 @@ public interface ICalcService {
 	@GET
 	@Path("/sum")
 	@Produces(MediaType.APPLICATION_JSON)
-	Result sum(@QueryParam("first") double first, @QueryParam("second") double second);
+	JResult sum(@QueryParam("first") double first, @QueryParam("second") double second);
 
 	@POST
 	@Path("/subtract")
 	@Produces(MediaType.APPLICATION_JSON)
-	Result subtract(@FormParam("first") double first, @FormParam("second") double second);
+	JResult subtract(@FormParam("first") double first, @FormParam("second") double second);
 
 }

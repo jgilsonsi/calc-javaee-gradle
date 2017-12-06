@@ -1,6 +1,6 @@
 package br.inatel.pos.mobile.calculadora.api;
 
-public class Result {
+public class JResult {
 
 	private double first;
 	private double second;
